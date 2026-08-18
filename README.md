@@ -1,4 +1,4 @@
-# Нейропартизан
+# Andrey Korobeynikov
 
 **Full Stack Python Developer**
 
