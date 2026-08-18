@@ -19,6 +19,6 @@
 
 ### 📫 Контакты
 
-- Telegram: [@partizan_code](https://t.me/partizan_code)
-
+- Мой Telegram: [@korobey](https://t.me/korobey)
+- Telegram канал "Нейропартизан" : [@partizan_code](https://t.me/partizan_code)
 ---
