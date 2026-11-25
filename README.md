@@ -1,74 +1,58 @@
 # Andrey Korobeynikov
 
-### Python Backend Developer | AI Integrations | Business Automation
+**Python Backend Developer | AI Integrations | Business Automation**
 
-Разрабатываю на Python backend-сервисы, API-интеграции и системы автоматизации бизнеса.
+I develop Python backend services, AI applications, and business automation systems. I combine engineering and business experience with software development to solve practical business problems, reduce manual work, and integrate external services.
 
-Мой основной интерес — создавать программные решения, которые сокращают ручную работу, объединяют различные сервисы и автоматизируют реальные бизнес-процессы.
+## Tech Stack
 
-Совмещаю опыт в бизнесе и автоматизации с разработкой программного обеспечения. Работаю с CRM, REST API, Telegram-ботами, AI-моделями и обработкой данных.
+| Area | Technologies |
+| --- | --- |
+| Backend | Python, FastAPI, Pydantic, REST API, HTTPX |
+| Data | SQL, SQLite, NumPy |
+| AI | LLMs, vision models, embeddings, OpenRouter, AssemblyAI |
+| Integrations | Bitrix24, Telegram, Instagram Graph API, Umnico |
+| Development tools | Git, Linux, mise, uv, pytest, Ruff |
+| Additional tools | Streamlit, Playwright, aiogram, FFmpeg |
 
-### 🛠 Технологии
+## Featured Projects
 
-**Backend:** Python · FastAPI · Pydantic · REST API
+### [AI Consultant](https://github.com/partizan-code/ai-consultant)
 
-**Данные:** SQL · SQLite · PostgreSQL
+AI-powered Instagram customer support and lead collection using a business knowledge base. Features webhook integration, automated replies in enabled Direct conversations, an administration and debugging panel, and separate production and staging environments.
 
-**AI:** LLM · Vision Models · Embeddings · OpenRouter
+**Stack:** Python, FastAPI, Streamlit, SQLite, HTTPX, OpenRouter, Umnico.
 
-**Интеграции:** Bitrix24 · Telegram · Instagram Graph API
+### [Bitrix Export](https://github.com/partizan-code/bitrix-export)
 
-**Инструменты:** Git · Docker · Linux · uv · pytest · Ruff
+CRM data pipeline for AI-assisted analysis of customer interactions. Combines calls, messages, tasks, comments, and deal stage changes into chronological records, with incremental synchronization and versioned SQLite snapshots.
 
-**Дополнительно:** Streamlit · Playwright · HTTPX · aiogram
+**Stack:** Python, Bitrix24 REST API, SQLite, requests, aiogram.
 
-### 🚀 Избранные проекты
+### [Sofa Recognition](https://github.com/partizan-code/sofa-recognition)
 
-**[AI Consultant](https://github.com/partizan-code/ai-consultant)** — AI-консультант для Instagram
+Experimental MVP for identifying furniture from photographs. Compares five recognition modes, including vision models, embeddings, and hybrid retrieval, with tools for measuring accuracy, latency, and API costs.
 
-Backend-система для автоматизированного общения с клиентами, использующая LLM и базу знаний компании. Интеграция с Umnico, обработка входящих сообщений, сбор заявок, административная панель и развёртывание на VPS.
+**Stack:** Python, Streamlit, NumPy, Pydantic, OpenRouter, vision models, embeddings.
 
-`Python` `FastAPI` `Streamlit` `SQLite` `OpenRouter`
+## Additional Projects
 
-**[Bitrix Export](https://github.com/partizan-code/bitrix-export)** — экспорт данных CRM для AI-аналитики
+| Project | Purpose and engineering value | Technologies |
+| --- | --- | --- |
+| [Bitrix24 Client](https://github.com/partizan-code/bitrix24-client) | Python client for Bitrix24 with typed data models | Python, REST API, Pydantic |
+| [Transcribe Bot](https://github.com/partizan-code/transcribe-bot) | Audio and video transcription with speaker diarization, timestamps, and SRT export | Python, aiogram, AssemblyAI, FFmpeg |
+| [Realt Bot](https://github.com/partizan-code/realt-bot) | Rental listing monitoring prototype with browser automation, duplicate filtering, and Telegram publishing | Python, Playwright, aiogram |
+| [Instagram Graph API](https://github.com/partizan-code/instagram_graphapi) | Integration scripts for Meta Unified Login, message retrieval, publishing, and webhook diagnostics | Python, requests, Meta Graph API |
 
-Сбор истории взаимодействий с клиентами из Bitrix24: звонки, сообщения, задачи, комментарии и изменения стадий. Формирование структурированных данных для анализа и использования в AI-системах.
+## Professional Focus
 
-`Python` `Bitrix24 API` `SQLite` `Telegram Bot`
+- Python backend development
+- AI agents and LLM integrations
+- Business process and CRM automation
+- Data collection, processing, and analytics
+- API integrations and automated services
 
-**[Sofa Recognition](https://github.com/partizan-code/sofa-recognition)** — распознавание товаров по фотографиям
-
-Приложение для сравнения способов идентификации мебели с помощью Vision-моделей, embeddings и гибридного поиска. Включает экспериментальные режимы, кэширование и измерение характеристик моделей.
-
-`Python` `Streamlit` `AI Vision` `Embeddings` `Pydantic`
-
-**[Bitrix24 Client](https://github.com/partizan-code/bitrix24-client)** — Python-клиент для Bitrix24 REST API
-
-Библиотека для взаимодействия с Bitrix24 с использованием типизированных моделей Pydantic.
-
-`Python` `REST API` `Pydantic`
-
-**[Realt Bot](https://github.com/partizan-code/realt-bot)** — мониторинг объявлений недвижимости
-
-Telegram-бот для отслеживания новых предложений аренды на Kufar в городах Беларуси. Парсинг через Playwright, фильтрация объявлений и публикация в Telegram. Прототип.
-
-`Python` `Playwright` `aiogram`
-
-**[Transcribe Bot](https://github.com/partizan-code/transcribe-bot)** — транскрибация аудио и видео
-
-Telegram-бот для распознавания речи с разделением говорящих, таймкодами и экспортом субтитров SRT.
-
-`Python` `aiogram` `AssemblyAI` `FFmpeg`
-
-### 🎯 Направления разработки
-
-- Backend-разработка и интеграция внешних API
-- Автоматизация CRM, продаж и бизнес-процессов
-- AI-агенты и интеграция языковых моделей
-- Сбор, обработка и анализ данных
-- Telegram-боты и автономные сервисы
-
-### 📫 Контакты
+## Contacts
 
 - **Telegram:** [@korobey](https://t.me/korobey)
-- **Канал «Нейропартизан»:** [@partizan_code](https://t.me/partizan_code)
+- **Telegram channel (Neuropartisan):** [@partizan_code](https://t.me/partizan_code)
