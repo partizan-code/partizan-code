@@ -2,36 +2,43 @@
 
 **Python Backend Developer | AI Integrations | Business Automation**
 
-I develop Python backend services, AI applications, and business automation systems. I combine engineering and business experience with software development to solve practical business problems, reduce manual work, and integrate external services.
+I develop Python backend services, AI applications, and business automation systems. Combining engineering and business experience with software development, I build practical solutions that reduce manual work, integrate external services, and automate business processes.
 
 ## Tech Stack
 
 | Area | Technologies |
 | --- | --- |
-| Backend | Python, FastAPI, Pydantic, REST API, HTTPX |
-| Data | SQL, SQLite, NumPy |
+| Backend | Python, asyncio, FastAPI, Pydantic, REST API, HTTPX |
+| Data Engineering | SQL, SQLite, NumPy, ETL, data processing |
 | AI | LLMs, vision models, embeddings, OpenRouter, AssemblyAI |
 | Integrations | Bitrix24, Telegram, Instagram Graph API, Umnico |
-| Development tools | Git, Linux, mise, uv, pytest, Ruff |
+| Infrastructure | Linux, Nginx, systemd, GitHub Actions |
+| Development tools | Git, mise, uv, pytest, unittest, Ruff |
 | Additional tools | Streamlit, Playwright, aiogram, FFmpeg |
 
 ## Featured Projects
 
 ### [AI Consultant](https://github.com/partizan-code/ai-consultant)
 
-AI-powered Instagram customer support and lead collection using a business knowledge base. Features webhook integration, automated replies in enabled Direct conversations, an administration and debugging panel, and separate production and staging environments.
+AI-powered Instagram sales assistant for customer consultations and automated lead collection using a business knowledge base.
+
+Features event-driven processing, persistent job queues, structured lead extraction, duplicate event handling, controlled message delivery, and automated replies in enabled Direct conversations. Includes an administration and debugging panel and separate production and staging environments.
 
 **Stack:** Python, FastAPI, Streamlit, SQLite, HTTPX, OpenRouter, Umnico.
 
 ### [Bitrix Export](https://github.com/partizan-code/bitrix-export)
 
-CRM data pipeline for AI-assisted analysis of customer interactions. Combines calls, messages, tasks, comments, and deal stage changes into chronological records, with incremental synchronization and versioned SQLite snapshots.
+CRM data pipeline for AI-assisted analysis of customer interactions. Combines calls, messages, tasks, comments, and deal stage changes into chronological records.
 
-**Stack:** Python, Bitrix24 REST API, SQLite, requests, aiogram.
+Features call transcription, data normalization, incremental synchronization, artifact reuse, and versioned SQLite snapshots.
+
+**Stack:** Python, Bitrix24 REST API, SQLite, AssemblyAI, requests, aiogram.
 
 ### [Sofa Recognition](https://github.com/partizan-code/sofa-recognition)
 
-Experimental MVP for identifying furniture from photographs. Compares five recognition modes, including vision models, embeddings, and hybrid retrieval, with tools for measuring accuracy, latency, and API costs.
+Experimental Streamlit MVP for identifying furniture from photographs and comparing multimodal AI approaches.
+
+Implements five recognition modes using vision models, image embeddings, and hybrid retrieval, with structured output validation and tools for measuring recognition quality, latency, and API costs.
 
 **Stack:** Python, Streamlit, NumPy, Pydantic, OpenRouter, vision models, embeddings.
 
@@ -39,18 +46,18 @@ Experimental MVP for identifying furniture from photographs. Compares five recog
 
 | Project | Purpose and engineering value | Technologies |
 | --- | --- | --- |
-| [Bitrix24 Client](https://github.com/partizan-code/bitrix24-client) | Python client for Bitrix24 with typed data models | Python, REST API, Pydantic |
-| [Transcribe Bot](https://github.com/partizan-code/transcribe-bot) | Audio and video transcription with speaker diarization, timestamps, and SRT export | Python, aiogram, AssemblyAI, FFmpeg |
-| [Realt Bot](https://github.com/partizan-code/realt-bot) | Rental listing monitoring prototype with browser automation, duplicate filtering, and Telegram publishing | Python, Playwright, aiogram |
-| [Instagram Graph API](https://github.com/partizan-code/instagram_graphapi) | Integration scripts for Meta Unified Login, message retrieval, publishing, and webhook diagnostics | Python, requests, Meta Graph API |
+| [Instagram Graph API Toolkit](https://github.com/partizan-code/instagram-graphapi) | Meta Unified Login, Direct message retrieval, media publishing, and webhook signature verification | Python, requests, FastAPI, Meta Graph API |
+| [Transcribe Bot](https://github.com/partizan-code/transcribe-bot) | Asynchronous audio and video transcription with bounded job queues, speaker diarization, timestamps, and SRT export | Python, asyncio, aiogram, AssemblyAI, FFmpeg |
+| [Bitrix24 Client](https://github.com/partizan-code/bitrix24-client) | Synchronous REST API client with typed data models and built-in rate limiting | Python, HTTPX, Pydantic |
+| [Realt Bot](https://github.com/partizan-code/realt-bot) | Rental listing monitoring prototype with browser automation, structured data extraction, browser recovery, and Telegram publishing | Python, Playwright, aiogram |
 
 ## Professional Focus
 
-- Python backend development
-- AI agents and LLM integrations
+- Python backend development and asynchronous processing
+- AI agents, LLM integrations, and multimodal applications
+- Data engineering and AI-assisted analytics
 - Business process and CRM automation
-- Data collection, processing, and analytics
-- API integrations and automated services
+- REST API integrations and event-driven services
 
 ## Contacts
 
